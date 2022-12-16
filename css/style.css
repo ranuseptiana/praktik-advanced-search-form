@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.devider {
+    border: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tittle {
+    font-weight: 500;
+    text-indent: 20px;
+
+    /* size style */
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.box1 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 130px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    width: 500px;
+    padding: 5px;
+    display: flex;
+}
+
+.form-group label {
+    width: 225px;
+}
